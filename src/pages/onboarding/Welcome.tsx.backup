@@ -1,0 +1,217 @@
+import { useNavigate } from 'react-router-dom';
+import Button from '../../components/Button';
+
+const Welcome = () => {
+    const navigate = useNavigate();
+
+    return (
+        <div style={{ minHeight: '100vh', background: '#FAFAFA', fontFamily: 'Inter, sans-serif' }}>
+            {/* Header */}
+            <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1.25rem 3rem', maxWidth: '1400px', margin: '0 auto' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div style={{ width: '18px', height: '18px', color: '#6C63FF' }}>
+                        <div>
+                            <h1 style={{ fontSize: '3.5rem', fontWeight: 800, lineHeight: 1.15, marginBottom: '1.5rem', color: '#1A1A1A', letterSpacing: '-0.02em' }}>
+                                Finally, Beat Procrastination. The Smart Way.
+                            </h1>
+                            <p style={{ fontSize: '1.1rem', color: '#5e5e8d', lineHeight: 1.65, marginBottom: '2.5rem' }}>
+                                Harness the power of psychology with smart triggers, dopamine loops, and an anti-overwhelm UI designed to help you finish what you start.
+                            </p>
+                            <Button
+                                variant="gradient"
+                                size="lg"
+                                pulse
+                                onClick={() => navigate('/signup')}
+                                style={{ marginBottom: '0.75rem' }}
+                            >
+                                Unlock Your Focus
+                            </Button>
+                            <p style={{ fontSize: '0.8rem', color: '#9a9ab0' }}>
+                                ⚡ No credit card required • Set up in 2 minutes
+                            </p>
+                        </div>
+                        <div>
+                            <img
+                                style={{ width: '100%', borderRadius: '1.25rem', boxShadow: '0 20px 60px rgba(0,0,0,0.12)' }}
+                                alt="Person working happily on laptop"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvvQzN0skIMhUkwLYV93xdZeRB-vtdMbUip86OFexbuCXuYQDKuoNVQnOlevBeeSmBMb_KIkT2SyM5IfIL003tmYaKQdLcpOwiCp-4Df_adv5VJQCJJX4AO0cyCiys41Z3Ti6wtNELnApn_ZtlQaFNZXCz1xA_0vmklGRG6f3ZCdnEv104EOxaIdDSifARQsujKwOeeQTkjzHQMAHNOsWPvJMDuZsGRYp6x52JiVBjhyZ1wtp9-09gTKoUaUEJQHH9qo4uA3srFPo"
+                            />
+                        </div>
+                    </div >
+                </section >
+
+                {/* Features Section */}
+                < section style={{ maxWidth: '1400px', margin: '0 auto', padding: '5rem 3rem' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                        <h2 style={{ fontSize: '2.25rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A', letterSpacing: '-0.01em' }}>
+                            Transform Your Workflow with Core Features
+                        </h2>
+                        <p style={{ color: '#5e5e8d', fontSize: '1.05rem' }}>
+                            Scientifically proven to rewire your habits, not just manage tasks.
+                        </p>
+                    </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2.5rem' }}>
+                        {/* Feature 1 */}
+                        <div style={{ background: '#FFFFFF', padding: '2.5rem', borderRadius: '1.25rem', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', border: '1px solid rgba(0,0,0,0.04)' }}>
+                            <div style={{ width: '3.5rem', height: '3.5rem', background: 'rgba(108, 99, 255, 0.08)', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.25rem' }}>
+                                <svg style={{ width: '1.75rem', height: '1.75rem', color: '#6C63FF' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A' }}>
+                                Dopamine Reward Loops
+                            </h3>
+                            <p style={{ fontSize: '0.95rem', color: '#5e5e8d', lineHeight: 1.65 }}>
+                                Get instant rewards for completing tasks, just like your favorite apps.
+                            </p>
+                        </div>
+
+                        {/* Feature 2 */}
+                        <div style={{ background: '#FFFFFF', padding: '2.5rem', borderRadius: '1.25rem', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', border: '1px solid rgba(0,0,0,0.04)' }}>
+                            <div style={{ width: '3.5rem', height: '3.5rem', background: 'rgba(0, 212, 166, 0.08)', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.25rem' }}>
+                                <svg style={{ width: '1.75rem', height: '1.75rem', color: '#00D4A6' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A' }}>
+                                Personalized Nudges
+                            </h3>
+                            <p style={{ fontSize: '0.95rem', color: '#5e5e8d', lineHeight: 1.65 }}>
+                                Tailored strategies for ADHD, students, and different personality types.
+                            </p>
+                        </div>
+
+                        {/* Feature 3 */}
+                        <div style={{ background: '#FFFFFF', padding: '2.5rem', borderRadius: '1.25rem', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', border: '1px solid rgba(0,0,0,0.04)' }}>
+                            <div style={{ width: '3.5rem', height: '3.5rem', background: 'rgba(255, 179, 0, 0.08)', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.25rem' }}>
+                                <svg style={{ width: '1.75rem', height: '1.75rem', color: '#FFB300' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                            </div>
+                            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A' }}>
+                                Invisible Habit Tracking
+                            </h3>
+                            <p style={{ fontSize: '0.95rem', color: '#5e5e8d', lineHeight: 1.65 }}>
+                                Build habits without the pressure. We track progress in the background.
+                            </p>
+                        </div>
+
+                        {/* Feature 4 */}
+                        <div style={{ background: '#FFFFFF', padding: '2.5rem', borderRadius: '1.25rem', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', border: '1px solid rgba(0,0,0,0.04)' }}>
+                            <div style={{ width: '3.5rem', height: '3.5rem', background: 'rgba(138, 43, 226, 0.08)', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.25rem' }}>
+                                <svg style={{ width: '1.75rem', height: '1.75rem', color: '#8A2BE2' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                            </div>
+                            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A' }}>
+                                Loss Aversion Triggers
+                            </h3>
+                            <p style={{ fontSize: '0.95rem', color: '#5e5e8d', lineHeight: 1.65 }}>
+                                Protect your streak! Fear of losing motivates you to keep going.
+                            </p>
+                        </div>
+                    </div>
+                </section >
+
+                {/* Psychology Section */}
+                < section style={{ maxWidth: '1400px', margin: '0 auto', padding: '5rem 3rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.3fr', gap: '5rem', alignItems: 'center' }}>
+                        {/* Orange box with brain - LEFT SIDE ONLY */}
+                        <div style={{ background: 'linear-gradient(135deg, #FFB366 0%, #FF9F4D 100%)', borderRadius: '2rem', padding: '4rem 3rem', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '400px' }}>
+                            <div style={{ position: 'relative' }}>
+                                <div style={{ width: '220px', height: '220px', background: '#FFFFFF', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 20px 60px rgba(0,0,0,0.15)' }}>
+                                    <svg style={{ width: '120px', height: '120px', color: '#FF9F4D' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Text content - RIGHT SIDE */}
+                        <div>
+                            <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#6C63FF', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '1rem' }}>
+                                The Science of NOT Procrastinating
+                            </p>
+                            <h2 style={{ fontSize: '2.5rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A1A1A', lineHeight: 1.2, letterSpacing: '-0.01em' }}>
+                                Built on Proven Behavioral Psychology
+                            </h2>
+                            <p style={{ fontSize: '1.05rem', color: '#5e5e8d', lineHeight: 1.75, marginBottom: '2rem' }}>
+                                ProcrastiNOT isn't just another to-do app. We use <strong style={{ color: '#1A1A1A' }}>Operant Conditioning</strong>, <strong style={{ color: '#1A1A1A' }}>Behavioral Nudges</strong>, and <strong style={{ color: '#1A1A1A' }}>Temptation Bundling</strong> to rewire your brain for success. Every feature is designed to make productivity feel less like work and more like winning a game.
+                            </p>
+                            <Button variant="primary" size="lg">
+                                Learn More About the Science
+                            </Button>
+                        </div>
+                    </div>
+                </section >
+
+                {/* Testimonials */}
+                < section style={{ maxWidth: '1400px', margin: '0 auto', padding: '5rem 3rem' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                        <h2 style={{ fontSize: '2.25rem', fontWeight: 700, marginBottom: '0.75rem', color: '#1A1A1A', letterSpacing: '-0.01em' }}>
+                            Loved by Chronic Procrastinators Everywhere
+                        </h2>
+                        <p style={{ color: '#5e5e8d', fontSize: '1.05rem' }}>Don't just take our word for it. Here's what our users say.</p>
+                    </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2.5rem' }}>
+                        {[
+                            { name: 'Alex R.', role: 'College Student', text: "I've tried every productivity app. ProcrastiNOT is the only one that actually gets me to finish things." },
+                            { name: 'Jessica M.', role: 'Freelance Designer', text: 'The ADHD-friendly design is a game changer. No more feeling overwhelmed by my to-do list!' },
+                            { name: 'Sam K.', role: 'Software Engineer', text: 'This app uses actual psychology to help. Not just another task manager. Highly recommend!' }
+                        ].map((testimonial, i) => (
+                            <div key={i} style={{ background: '#FFFFFF', padding: '2.5rem', borderRadius: '1.25rem', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', border: '1px solid rgba(0,0,0,0.04)' }}>
+                                <div style={{ display: 'flex', gap: '0.25rem', marginBottom: '1.25rem' }}>
+                                    {[...Array(5)].map((_, j) => (
+                                        <span key={j} style={{ color: '#FFB300', fontSize: '1.1rem' }}>★</span>
+                                    ))}
+                                </div>
+                                <p style={{ fontSize: '0.95rem', color: '#5e5e8d', fontStyle: 'italic', marginBottom: '1.5rem', lineHeight: 1.65 }}>
+                                    "{testimonial.text}"
+                                </p>
+                                <p style={{ fontWeight: 700, fontSize: '0.95rem', color: '#1A1A1A', marginBottom: '0.25rem' }}>{testimonial.name}</p>
+                                <p style={{ fontSize: '0.85rem', color: '#9a9ab0' }}>{testimonial.role}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section >
+
+                {/* CTA Section */}
+                < section style={{ background: 'linear-gradient(135deg, #6C63FF 0%, #8B85FF 100%)', padding: '5rem 3rem', margin: '3rem 3rem', borderRadius: '2rem' }}>
+                    <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', color: '#FFFFFF' }}>
+                        <h2 style={{ fontSize: '2.75rem', fontWeight: 700, marginBottom: '1.25rem', lineHeight: 1.2, letterSpacing: '-0.01em' }}>
+                            Ready to Stop Procrastinating and Start Achieving?
+                        </h2>
+                        <p style={{ fontSize: '1.2rem', marginBottom: '2.5rem', opacity: 0.95 }}>
+                            Join thousands who've already transformed their productivity.
+                        </p>
+                        <Button
+                            variant="accent"
+                            size="lg"
+                            pulse
+                            onClick={() => navigate('/signup')}
+                        >
+                            Get Started For Free
+                        </Button>
+                    </div>
+                </section >
+
+                {/* Footer */}
+                < footer style={{ textAlign: 'center', padding: '3rem 2rem', color: '#9a9ab0', fontSize: '0.85rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', gap: '2.5rem', marginBottom: '1.25rem' }}>
+                        <a style={{ color: '#9a9ab0', textDecoration: 'none', cursor: 'pointer' }}
+                            onMouseEnter={(e) => e.currentTarget.style.color = '#6C63FF'}
+                            onMouseLeave={(e) => e.currentTarget.style.color = '#9a9ab0'}>Privacy Policy</a>
+                        <a style={{ color: '#9a9ab0', textDecoration: 'none', cursor: 'pointer' }}
+                            onMouseEnter={(e) => e.currentTarget.style.color = '#6C63FF'}
+                            onMouseLeave={(e) => e.currentTarget.style.color = '#9a9ab0'}>Terms of Service</a>
+                        <a style={{ color: '#9a9ab0', textDecoration: 'none', cursor: 'pointer' }}
+                            onMouseEnter={(e) => e.currentTarget.style.color = '#6C63FF'}
+                            onMouseLeave={(e) => e.currentTarget.style.color = '#9a9ab0'}>Contact Us</a>
+                    </div>
+                    <p>© 2025 ProcrastiNOT. All rights reserved.</p>
+                </footer >
+        </div >
+    );
+};
+
+export default Welcome;
