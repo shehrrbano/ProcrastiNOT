@@ -1,4 +1,4 @@
-# 🚀 ProcrastiNOT
+# ProcrastiNOT
 
 **Beat Procrastination with Personalized Productivity**
 
@@ -6,7 +6,7 @@ ProcrastiNOT is a modern, intelligent productivity application designed to help 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -22,9 +22,9 @@ ProcrastiNOT is a modern, intelligent productivity application designed to help 
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Personalized Onboarding**: MBTI and ADHD assessments to tailor the experience
 - **Smart Dashboard**: Overview of tasks, mood, and productivity metrics
 - **Task Calendar**: Visual task management with calendar integration
@@ -34,14 +34,14 @@ ProcrastiNOT is a modern, intelligent productivity application designed to help 
 - **Analytics**: Detailed productivity analytics and insights
 - **Distraction Blocker**: Tools to minimize interruptions
 
-### 🎨 User Experience
+### User Experience
 - **Dark Mode**: Eye-friendly dark theme with smooth transitions
 - **Fluid Animations**: Engaging micro-interactions and animations
 - **Responsive Design**: Optimized for desktop, tablet, and mobile
 - **PWA Ready**: Install as a native app on any device
 - **Intuitive Navigation**: Bottom navigation for easy access
 
-### 🧠 Personalization
+### Personalization
 - **MBTI-Based Recommendations**: Task strategies based on personality type
 - **ADHD Support**: Features designed for neurodivergent users
 - **Custom Goals**: Set and track personal productivity goals
@@ -49,7 +49,7 @@ ProcrastiNOT is a modern, intelligent productivity application designed to help 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19.2.0** - Modern UI library with latest features
@@ -69,7 +69,7 @@ ProcrastiNOT is a modern, intelligent productivity application designed to help 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v18 or higher)
@@ -112,7 +112,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ProcrastiNOT/
@@ -165,7 +165,7 @@ ProcrastiNOT/
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -176,7 +176,7 @@ ProcrastiNOT/
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### Layout Components
 - **`Layout.tsx`** - Main application layout wrapper
@@ -211,7 +211,7 @@ ProcrastiNOT/
 
 ---
 
-## 🔄 Context Providers
+## Context Providers
 
 ### AppContext
 Global application state management for tasks, settings, and app-wide data.
@@ -227,7 +227,7 @@ Stores user profile data, preferences, and personalization settings.
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Theme Customization
 Edit `src/index.css` to customize colors, fonts, and global styles:
@@ -248,13 +248,13 @@ Edit `src/index.css` to customize colors, fonts, and global styles:
 
 ---
 
-## 📱 PWA Support
+## PWA Support
 
 ProcrastiNOT is a Progressive Web App, which means:
-- ✅ **Installable** - Add to home screen on mobile/desktop
-- ✅ **Offline Support** - Works without internet connection
-- ✅ **Fast Loading** - Cached assets for quick startup
-- ✅ **Native Feel** - App-like experience
+- **Installable** - Add to home screen on mobile/desktop
+- **Offline Support** - Works without internet connection
+- **Fast Loading** - Cached assets for quick startup
+- **Native Feel** - App-like experience
 
 ### Installing as PWA
 1. Open the app in a supported browser (Chrome, Edge, Safari)
@@ -263,51 +263,24 @@ ProcrastiNOT is a Progressive Web App, which means:
 
 ---
 
-## 👩‍💻 Developer
+## Developer
 
-**Shehr Bano**
-
-- GitHub: [@shehrrbano](https://github.com/shehrrbano)
-- Project Repository: [ProcrastiNOT](https://github.com/shehrrbano/ProcrastiNOT)
+**Shehr Bano** and **Anila Younas**
 
 ---
 
-## 📄 License
+## License
 
 This project is private and proprietary. All rights reserved.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal project. If you'd like to contribute or have suggestions, please reach out to the developer.
 
 ---
 
-## 🐛 Known Issues & Roadmap
-
-### Current Focus
-- Backend integration for data persistence
-- User authentication with OAuth
-- Cloud sync across devices
-- Mobile app versions (iOS/Android)
-
-### Future Enhancements
-- AI-powered task prioritization
-- Team collaboration features
-- Integration with calendar apps (Google Calendar, Outlook)
-- Pomodoro timer variations
-- Habit tracking
-- Social features and accountability partners
-
----
-
-## 📞 Support
-
-For issues, questions, or feature requests, please open an issue on the [GitHub repository](https://github.com/shehrrbano/ProcrastiNOT/issues).
-
----
-
-**Made with ❤️ by Shehr Bano**
+**Made with ❤️ by Shehr Bano and Anila Younas**
 
 *Stop procrastinating, start achieving with ProcrastiNOT!*
